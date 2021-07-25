@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = 'http://localhost:4321'
+const API_URL = 'https://library-management-api.herokuapp.com/'
 
 const securedAxiosInstance = axios.create({
   baseURL: API_URL,
