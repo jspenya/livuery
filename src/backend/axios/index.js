@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = 'https://libsys-api-tf5vy.ondigitalocean.app'
+const API_URL = 'http://localhost:4321'
 
 const securedAxiosInstance = axios.create({
   baseURL: API_URL,
