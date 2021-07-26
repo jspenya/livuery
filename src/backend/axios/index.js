@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = 'https://library-management-api.herokuapp.com/'
+const API_URL = 'https://libsys-api-tf5vy.ondigitalocean.app'
 
 const securedAxiosInstance = axios.create({
   baseURL: API_URL,
