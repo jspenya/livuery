@@ -155,6 +155,8 @@ export default {
         .then(response => {
           this.books.push(response.data)
           this.newBook = ''
+          window.location.reload()
+          return false
         })
         .catch(error => this.setError(error, 'Cannot create book'))
     },

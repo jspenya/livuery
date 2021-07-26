@@ -124,6 +124,8 @@ export default {
         .then(response => {
           this.students.push(response.data)
           this.newStudent = ''
+          window.location.reload()
+          return false
         })
         .catch(error => this.setError(error, 'Cannot create student'))
     },
